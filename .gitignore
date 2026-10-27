@@ -1,0 +1,47 @@
+# Python / editor
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.vscode/
+
+# Model weights, saved arrays and caches (too big for GitHub; demo weights go to a private Google Drive folder)
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+*.onnx
+*.npz
+*.npy
+outputs/checkpoints/
+outputs/cache/
+outputs/scores/
+outputs/demo/
+
+# Never commit dataset images, faces or labels derived from the data (licences don't allow redistribution).
+# Any figure that shows a face goes to outputs/samples/.
+datasets/
+outputs/samples/
+outputs/index/
+
+# Documents and archives: Ali's Week 4 report, the Subject Outline, slides, zips
+*.pdf
+*.doc
+*.docx
+*.ppt
+*.pptx
+*.xls
+*.xlsx
+*.zip
+
+# Local notes and logs (the README carries the GenAI-use statement)
+CLAUDE.md
+setup_log.txt
+PROJECT_BACKGROUND.md
+notes/
+ASSESSMENT_BRIEF.md
+outputs/logs/*.log
+outputs/logs/*.txt
+outputs/.run_all*.lock
+*.tmp
