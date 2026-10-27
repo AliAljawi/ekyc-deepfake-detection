@@ -52,7 +52,7 @@ python check_setup.py
 | 7 | `fairness_seeds.py`, `h2_seeds.py` | exploratory seed 1-2 repeats | |
 | optional | `bench_latency.py` | speed per image on GPU and CPU | |
 
-Results go to `outputs/`, which is not included: it holds model weights, scores and dataset faces.
+Results go to outputs/results (tables) and outputs/figures (charts) are included; model weights, scores and face images are not.
 
 ## Demo
 `export_demo.py` exports the seed-0 models, thresholds and 8 test faces, after steps 1-6. Then run
