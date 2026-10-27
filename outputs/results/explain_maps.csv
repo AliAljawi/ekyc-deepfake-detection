@@ -1,0 +1,13 @@
+model,type,outcome,frames,share_in_central_ellipse,vit_high_norm_token_share
+clip_lora,faceswap,caught,300,0.2883,1
+clip_lora,faceswap,missed,300,0.2915,1
+effnet_b4,faceswap,caught,300,0.7605,
+effnet_b4,faceswap,missed,300,0.4964,
+clip_lora,reenactment,caught,300,0.2846,1
+clip_lora,reenactment,missed,300,0.286,1
+effnet_b4,reenactment,caught,300,0.7734,
+effnet_b4,reenactment,missed,300,0.3782,
+clip_lora,diffusion,caught,300,0.289,1
+clip_lora,diffusion,missed,300,0.2923,1
+effnet_b4,diffusion,caught,300,0.6783,
+effnet_b4,diffusion,missed,300,0.3654,

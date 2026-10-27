@@ -1,0 +1,16 @@
+model,variant,device,precision,batch,median_ms,p90_ms,images_per_s
+clip_lora,as evaluated,NVIDIA GeForce RTX 5090,bf16 autocast,1,9.346,11.47,107
+clip_lora,as evaluated,NVIDIA GeForce RTX 5090,bf16 autocast,64,25.75,26.31,2486
+clip_lora,as evaluated,"CPU (AMD64 Family 26 Model 68 Stepping 0, AuthenticAMD, 8 threads)",fp32,1,70.99,73.06,14.09
+clip_lora,LoRA merged (deployment),NVIDIA GeForce RTX 5090,bf16 autocast,1,5.008,6.761,199.7
+clip_lora,LoRA merged (deployment),NVIDIA GeForce RTX 5090,bf16 autocast,64,22.49,23.09,2846
+clip_lora,LoRA merged (deployment),"CPU (AMD64 Family 26 Model 68 Stepping 0, AuthenticAMD, 8 threads)",fp32,1,65.96,67.13,15.16
+clip_probe,as evaluated,NVIDIA GeForce RTX 5090,bf16 autocast,1,4.949,5.942,202.1
+clip_probe,as evaluated,NVIDIA GeForce RTX 5090,bf16 autocast,64,22.55,23.05,2838
+clip_probe,as evaluated,"CPU (AMD64 Family 26 Model 68 Stepping 0, AuthenticAMD, 8 threads)",fp32,1,66.18,67.56,15.11
+effnet_b4,as evaluated,NVIDIA GeForce RTX 5090,bf16 autocast,1,12.07,14.02,82.88
+effnet_b4,as evaluated,NVIDIA GeForce RTX 5090,bf16 autocast,64,16.22,18.64,3947
+effnet_b4,as evaluated,"CPU (AMD64 Family 26 Model 68 Stepping 0, AuthenticAMD, 8 threads)",fp32,1,18.45,20.17,54.2
+clip_zeroshot,as evaluated,NVIDIA GeForce RTX 5090,bf16 autocast,1,5.058,5.906,197.7
+clip_zeroshot,as evaluated,NVIDIA GeForce RTX 5090,bf16 autocast,64,20.02,22.17,3197
+clip_zeroshot,as evaluated,"CPU (AMD64 Family 26 Model 68 Stepping 0, AuthenticAMD, 8 threads)",fp32,1,67.26,70.46,14.87

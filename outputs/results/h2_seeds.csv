@@ -1,0 +1,4 @@
+seed,vit_run,cnn_run,did_aar,did_bpcer_cdf,did_auc,aar_unseen_vit_png,aar_unseen_cnn_png,aar_unseen_vit_q60,aar_unseen_cnn_q60
+0,clip_lora_s0,effnet_b4_s0,-0.0600349,0.033452,0.0410969,0.66622,0.600966,0.981238,0.965977
+1,clip_lora_s1,effnet_b4_s1,-0.144293,0.104484,0.0184109,0.743,0.50208,0.994985,0.923493
+2,clip_lora_s2,effnet_b4_s2,-0.0586329,0.00448399,0.0270124,0.675575,0.63463,0.972423,0.993421

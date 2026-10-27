@@ -1,0 +1,53 @@
+group,label,statistic,n,mean,sd,p10,median,p90
+ffpp_real,FF++ train: real,laplacian_var,500,154.564,236.647,21.8858,77.0593,405.871
+ffpp_real,FF++ train: real,hf_share,500,0.00558915,0.00496111,0.00196514,0.00430062,0.0101944
+ffpp_real,FF++ train: real,png_bytes_per_px,500,1.1516,0.158624,0.95573,1.13999,1.34103
+ffpp_real,FF++ train: real,blockiness_8x8,500,1.00899,0.0516622,0.96297,1.00647,1.05059
+ffpp_DF,FF++ train: Deepfakes,laplacian_var,500,143.487,186.792,23.2618,75.802,337.35
+ffpp_DF,FF++ train: Deepfakes,hf_share,500,0.00581903,0.0060659,0.00213941,0.0043344,0.0104002
+ffpp_DF,FF++ train: Deepfakes,png_bytes_per_px,500,1.14364,0.145791,0.959578,1.13374,1.32154
+ffpp_DF,FF++ train: Deepfakes,blockiness_8x8,500,1.00714,0.0381371,0.962378,1.00582,1.0528
+ffpp_F2F,FF++ train: Face2Face,laplacian_var,500,165.493,242.217,26.5762,84.5746,398.994
+ffpp_F2F,FF++ train: Face2Face,hf_share,500,0.00614955,0.00585007,0.00212425,0.00446777,0.0120237
+ffpp_F2F,FF++ train: Face2Face,png_bytes_per_px,500,1.16719,0.156786,0.976057,1.15904,1.35188
+ffpp_F2F,FF++ train: Face2Face,blockiness_8x8,500,1.00742,0.0374841,0.963683,1.00616,1.0476
+ffpp_FS,FF++ train: FaceSwap,laplacian_var,500,146.358,176.436,26.811,87.1021,338.022
+ffpp_FS,FF++ train: FaceSwap,hf_share,500,0.0058725,0.00490492,0.00223085,0.00449488,0.0107285
+ffpp_FS,FF++ train: FaceSwap,png_bytes_per_px,500,1.16802,0.155805,0.970723,1.16213,1.36688
+ffpp_FS,FF++ train: FaceSwap,blockiness_8x8,500,1.00406,0.0367933,0.962848,1.00585,1.04282
+ffpp_NT,FF++ train: NeuralTextures,laplacian_var,500,119.388,162.969,18.3751,62.2942,275.745
+ffpp_NT,FF++ train: NeuralTextures,hf_share,500,0.00531326,0.00533366,0.00192566,0.0040913,0.00955243
+ffpp_NT,FF++ train: NeuralTextures,png_bytes_per_px,500,1.14671,0.143925,0.966646,1.13951,1.32858
+ffpp_NT,FF++ train: NeuralTextures,blockiness_8x8,500,1.00747,0.0370763,0.966328,1.00753,1.04614
+cdf_real,Celeb-DF test: real,laplacian_var,500,39.1111,72.0853,6.68333,18.3588,73.5396
+cdf_real,Celeb-DF test: real,hf_share,500,0.00353533,0.00256959,0.00117501,0.00292867,0.00584359
+cdf_real,Celeb-DF test: real,png_bytes_per_px,500,0.910178,0.155786,0.724504,0.900986,1.10049
+cdf_real,Celeb-DF test: real,blockiness_8x8,500,1.00571,0.0306295,0.972152,1.00398,1.04117
+cdf_fake,Celeb-DF test: fake,laplacian_var,500,23.5918,41.377,5.94768,14.1736,42.5818
+cdf_fake,Celeb-DF test: fake,hf_share,500,0.00265176,0.0019995,0.000877611,0.00236701,0.00467714
+cdf_fake,Celeb-DF test: fake,png_bytes_per_px,500,0.908719,0.14622,0.730836,0.896225,1.0938
+cdf_fake,Celeb-DF test: fake,blockiness_8x8,500,1.00633,0.027389,0.972734,1.0065,1.03947
+df40_inswap,DF40: InSwapper,laplacian_var,500,24.9222,38.04,5.70819,13.7257,47.4111
+df40_inswap,DF40: InSwapper,hf_share,500,0.00298957,0.00193003,0.000962503,0.00261699,0.00549459
+df40_inswap,DF40: InSwapper,png_bytes_per_px,500,0.954251,0.143668,0.790894,0.944214,1.13694
+df40_inswap,DF40: InSwapper,blockiness_8x8,500,1.00546,0.025501,0.975408,1.00514,1.03605
+df40_simswap,DF40: SimSwap,laplacian_var,500,40.4257,83.6366,8.40566,21.0954,60.3779
+df40_simswap,DF40: SimSwap,hf_share,500,0.00311759,0.00268758,0.00103382,0.00259025,0.00550027
+df40_simswap,DF40: SimSwap,png_bytes_per_px,500,1.0185,0.157527,0.839886,1.00858,1.21489
+df40_simswap,DF40: SimSwap,blockiness_8x8,500,1.00638,0.0283516,0.971762,1.00513,1.04036
+df40_fomm,DF40: FOMM,laplacian_var,500,15.5329,22.9106,3.90012,7.84063,34.1666
+df40_fomm,DF40: FOMM,hf_share,500,0.00322278,0.00208943,0.00103103,0.00279893,0.00573223
+df40_fomm,DF40: FOMM,png_bytes_per_px,500,0.743824,0.105985,0.615515,0.740494,0.890536
+df40_fomm,DF40: FOMM,blockiness_8x8,500,1.00358,0.0324024,0.969286,1.0053,1.03666
+df40_sadtalker,DF40: SadTalker,laplacian_var,500,21.0866,41.465,5.01886,11.7217,34.9994
+df40_sadtalker,DF40: SadTalker,hf_share,500,0.00289632,0.00221162,0.00079524,0.00234172,0.00550204
+df40_sadtalker,DF40: SadTalker,png_bytes_per_px,500,0.821565,0.144508,0.676967,0.801376,1.00961
+df40_sadtalker,DF40: SadTalker,blockiness_8x8,500,1.00603,0.0268512,0.973181,1.00446,1.0377
+df40_sd2.1,DF40: SD-2.1,laplacian_var,500,24.4295,39.0108,3.58341,11.3359,55.449
+df40_sd2.1,DF40: SD-2.1,hf_share,500,0.00313015,0.00221518,0.00110703,0.00261348,0.00566694
+df40_sd2.1,DF40: SD-2.1,png_bytes_per_px,500,1.0868,0.161598,0.889465,1.09039,1.29391
+df40_sd2.1,DF40: SD-2.1,blockiness_8x8,500,0.99608,0.0478704,0.954915,1.00467,1.03925
+df40_DiT,DF40: DiT-XL/2,laplacian_var,500,23.7338,38.3339,6.2699,12.8364,45.2051
+df40_DiT,DF40: DiT-XL/2,hf_share,500,0.00292473,0.0020093,0.000913047,0.00247947,0.00547385
+df40_DiT,DF40: DiT-XL/2,png_bytes_per_px,500,1.05383,0.0984101,0.934116,1.05529,1.16833
+df40_DiT,DF40: DiT-XL/2,blockiness_8x8,500,0.991143,0.0414875,0.948608,0.989713,1.03055

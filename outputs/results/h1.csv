@@ -1,0 +1,4 @@
+type,aar_vit,aar_cnn,d_aar,ci_low,ci_high,p_boot,verdict,mcnemar_b,mcnemar_c,mcnemar_units,p_mcnemar,auc_vit,auc_cnn,oracle_d_aar,oracle_ci_low,oracle_ci_high,sens_ci_low,sens_ci_high,sens_verdict,reading_row,reading,p_boot_holm,p_mcnemar_holm,mcnemar_agrees
+faceswap,0.652779,0.483425,0.169354,0.13445,0.200986,0.00019998,CNN lower,9,102,320,4.26087e-21,0.745187,0.789253,0.0574699,-0.000224174,0.117392,0.0195813,0.278296,CNN lower,5,CNN lower,0.00059994,8.52174e-21,True
+reenactment,0.880753,0.893547,-0.0127938,-0.0341292,0.00674742,0.218778,no significant difference,5,6,328,1,0.608501,0.51068,-0.00581359,-0.0142724,0.00181975,-0.0896781,0.0663687,no significant difference,4,no significant difference,0.218778,1,True
+diffusion,0.465127,0.425925,0.0392028,0.0366828,0.0418293,0.00019998,CNN lower,1675,3884,56348,4.34524e-198,0.779121,0.773069,0.0164336,-0.0122134,0.042576,-0.0100647,0.0909016,no significant difference,5,CNN lower,0.00059994,1.30357e-197,True

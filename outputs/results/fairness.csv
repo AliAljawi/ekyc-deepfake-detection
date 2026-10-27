@@ -1,0 +1,5 @@
+model,run,bpcer_female,bpcer_male,gap_f_minus_m,ci_low,ci_high,ratio_f_over_m,ratio_ci_low,ratio_ci_high,ci_half_width,identities_f,identities_m,videos_f,videos_m,frames_f,frames_m
+ViT (CLIP + LoRA),clip_lora_s0,0.0960068,0.0706471,0.0253597,-0.0178812,0.0687395,1.35896,0.801525,2.35749,0.0433103,53,68,74,101,2354,3199
+EfficientNet-B4,effnet_b4_s0,0.107477,0.139106,-0.0316293,-0.0915393,0.022855,0.772624,0.491366,1.22356,0.0571971,53,68,74,101,2354,3199
+Frozen CLIP + probe,clip_probe_s0,0.0127443,0.0215692,-0.00882498,-0.0325996,0.0161404,0.590854,0.0802668,2.60978,0.02437,53,68,74,101,2354,3199
+Zero-shot CLIP,clip_zeroshot,0.00679694,0,0.00679694,0.000429273,0.0163373,,,,0.00795399,53,68,74,101,2354,3199

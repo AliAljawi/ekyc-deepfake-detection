@@ -1,0 +1,49 @@
+model,group,metric,gender,value,frames,videos
+ViT (CLIP + LoRA),cdf_fake,AAR,F,0.56901,1949,61
+ViT (CLIP + LoRA),cdf_fake,AAR,M,0.663855,8773,275
+ViT (CLIP + LoRA),inswap,AAR,F,0.437174,3072,99
+ViT (CLIP + LoRA),inswap,AAR,M,0.496569,10202,320
+ViT (CLIP + LoRA),simswap,AAR,F,0.757632,3800,123
+ViT (CLIP + LoRA),simswap,AAR,M,0.837329,16266,510
+ViT (CLIP + LoRA),fomm,AAR,F,0.809863,3934,126
+ViT (CLIP + LoRA),fomm,AAR,M,0.861555,16093,513
+ViT (CLIP + LoRA),sadtalker,AAR,F,0.899533,4071,131
+ViT (CLIP + LoRA),sadtalker,AAR,M,0.9141,16915,529
+ViT (CLIP + LoRA),ffpp_real,BPCER,F,0.01002,2495,78
+ViT (CLIP + LoRA),ffpp_real,BPCER,M,0.0119792,1920,60
+EfficientNet-B4,cdf_fake,AAR,F,0.654182,1949,61
+EfficientNet-B4,cdf_fake,AAR,M,0.673658,8773,275
+EfficientNet-B4,inswap,AAR,F,0.455729,3072,99
+EfficientNet-B4,inswap,AAR,M,0.368653,10202,320
+EfficientNet-B4,simswap,AAR,F,0.456316,3800,123
+EfficientNet-B4,simswap,AAR,M,0.608386,16266,510
+EfficientNet-B4,fomm,AAR,F,0.89756,3934,126
+EfficientNet-B4,fomm,AAR,M,0.915491,16093,513
+EfficientNet-B4,sadtalker,AAR,F,0.851879,4071,131
+EfficientNet-B4,sadtalker,AAR,M,0.881998,16915,529
+EfficientNet-B4,ffpp_real,BPCER,F,0.01002,2495,78
+EfficientNet-B4,ffpp_real,BPCER,M,0.00885417,1920,60
+Frozen CLIP + probe,cdf_fake,AAR,F,0.919959,1949,61
+Frozen CLIP + probe,cdf_fake,AAR,M,0.895133,8773,275
+Frozen CLIP + probe,inswap,AAR,F,0.946289,3072,99
+Frozen CLIP + probe,inswap,AAR,M,0.914625,10202,320
+Frozen CLIP + probe,simswap,AAR,F,0.961316,3800,123
+Frozen CLIP + probe,simswap,AAR,M,0.931821,16266,510
+Frozen CLIP + probe,fomm,AAR,F,0.912049,3934,126
+Frozen CLIP + probe,fomm,AAR,M,0.790157,16093,513
+Frozen CLIP + probe,sadtalker,AAR,F,0.984279,4071,131
+Frozen CLIP + probe,sadtalker,AAR,M,0.98392,16915,529
+Frozen CLIP + probe,ffpp_real,BPCER,F,0.00521042,2495,78
+Frozen CLIP + probe,ffpp_real,BPCER,M,0.003125,1920,60
+Zero-shot CLIP,cdf_fake,AAR,F,0.899436,1949,61
+Zero-shot CLIP,cdf_fake,AAR,M,0.999886,8773,275
+Zero-shot CLIP,inswap,AAR,F,0.934896,3072,99
+Zero-shot CLIP,inswap,AAR,M,0.999804,10202,320
+Zero-shot CLIP,simswap,AAR,F,0.922368,3800,123
+Zero-shot CLIP,simswap,AAR,M,0.9917,16266,510
+Zero-shot CLIP,fomm,AAR,F,0.949161,3934,126
+Zero-shot CLIP,fomm,AAR,M,0.999938,16093,513
+Zero-shot CLIP,sadtalker,AAR,F,0.966593,4071,131
+Zero-shot CLIP,sadtalker,AAR,M,1,16915,529
+Zero-shot CLIP,ffpp_real,BPCER,F,0.0244489,2495,78
+Zero-shot CLIP,ffpp_real,BPCER,M,0,1920,60

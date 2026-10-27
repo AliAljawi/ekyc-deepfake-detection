@@ -1,0 +1,8 @@
+loader,workers,first_batch_s,img_per_s
+"train (augmented, 1 image per frame)",0,0.4,518.9
+"train (augmented, 1 image per frame)",4,2.9,1863.5
+"train (augmented, 1 image per frame)",8,3.5,3546.6
+"train (augmented, 1 image per frame)",12,4.3,4173.7
+test (6 JPEG levels per frame),4,3.0,6562.6
+test (6 JPEG levels per frame),8,4.0,11046.2
+test (6 JPEG levels per frame),12,4.5,9548.8
